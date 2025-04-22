@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/devcontainers/base:debian
 # Avoid interactive prompts during install
 ENV DEBIAN_FRONTEND=noninteractive
 
-Install curl and dependencies
+# Install curl and dependencies
 RUN apt-get update && \
     apt-get install -y curl python3 python3-pip
 
