@@ -1,0 +1,7 @@
+{
+	"name": "Default Linux Universal",
+	"build": {
+	  "dockerfile": "Dockerfile"
+	}
+  }
+  
